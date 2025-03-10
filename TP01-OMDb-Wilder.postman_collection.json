@@ -1,0 +1,163 @@
+{
+	"info": {
+		"_postman_id": "84531054-07a5-41a2-bed7-3b8e4b53653e",
+		"name": "TP01-OMDb-Wilder",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "OMDb - Hunger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.omdbapi.com/?apikey=822f1c51&t=Hunger",
+					"protocol": "https",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "822f1c51"
+						},
+						{
+							"key": "t",
+							"value": "Hunger"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OMDb - Cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.omdbapi.com/?apikey=822f1c51&s=Cars",
+					"protocol": "https",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "822f1c51"
+						},
+						{
+							"key": "s",
+							"value": "Cars"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OMDb - Monsters, Inc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.omdbapi.com/?apikey=822f1c51&t=Monsters, Inc&type=movie",
+					"protocol": "https",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "822f1c51"
+						},
+						{
+							"key": "t",
+							"value": "Monsters, Inc"
+						},
+						{
+							"key": "type",
+							"value": "movie"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OMDb - Rocky IV",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.omdbapi.com/?apikey=822f1c51&t=Rocky IV",
+					"protocol": "https",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "822f1c51"
+						},
+						{
+							"key": "t",
+							"value": "Rocky IV"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OMDb - IdPelícula",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.omdbapi.com/?apikey=822f1c51&i=tt0067992",
+					"protocol": "https",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "822f1c51"
+						},
+						{
+							"key": "i",
+							"value": "tt0067992"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
